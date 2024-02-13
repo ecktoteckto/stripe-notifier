@@ -1,0 +1,23 @@
+{
+  "name": "stripe-notifier",
+  "version": "0.0.0",
+  "description": "Receives Stripe events and forwards them to Slack",
+  "main": "index.js",
+  "scripts": {},
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 20.0.0"
+  },
+  "dependencies": {
+    "stripe": "^14.16.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  }
+}
